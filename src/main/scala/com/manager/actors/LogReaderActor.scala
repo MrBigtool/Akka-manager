@@ -9,7 +9,6 @@ import scala.util.matching.Regex
 // this log try to get a metric with pattern:
 //
 class LogReaderActor extends Actor with ActorLogging{
-  val RegexPattern: Nothing = """^(\d) (\S.+) (\d)$""".r: Regex
 
   System.out.println("Constructor")
 
